@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px; 
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+.input input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; 
+    max-width: 200px;
+}
+.input button {
+    padding: 10px;
+    background-color: #0099ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; 
+    max-width: 100px; 
+}
+
+.weather-box {
+    margin-top: 50px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.weather {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .input input, .input button {
+        font-size: 14px;
+        max-width: 100%; 
+    }
+
+    .weather-box {
+        padding: 15px;
+    }
+
+    .icon {
+        font-size: 40px;
+    }
+
+    .weather {
+        font-size: 20px;
+    }
+
+    .temperature {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 5px; 
+    }
+
+    .input {
+        margin-top: 20px;
+    }
+
+    .input input, .input button {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .weather-box {
+        margin-top: 20px;
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+
+    .weather {
+        font-size: 18px;
+    }
+
+    .temperature {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+}

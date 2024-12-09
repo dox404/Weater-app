@@ -62,3 +62,71 @@ body{
 .description{
     font-size:16px;
 }
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .input input, .input button {
+        font-size: 14px;
+        max-width: 100%; /* Takes up full width */
+    }
+
+    .weather-box {
+        padding: 15px;
+    }
+
+    .icon {
+        font-size: 40px;
+    }
+
+    .weather {
+        font-size: 20px;
+    }
+
+    .temperature {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 5px; /* Adjusts padding for very small screens */
+    }
+
+    .input {
+        margin-top: 20px;
+    }
+
+    .input input, .input button {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .weather-box {
+        margin-top: 20px;
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+
+    .weather {
+        font-size: 18px;
+    }
+
+    .temperature {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+}
